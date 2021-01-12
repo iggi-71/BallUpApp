@@ -15,6 +15,9 @@
 		1847E49425A78EA9009204CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1847E49225A78EA9009204CB /* LaunchScreen.storyboard */; };
 		1847E49F25A78EAA009204CB /* BallUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E49E25A78EAA009204CB /* BallUpTests.swift */; };
 		1847E4AA25A78EAA009204CB /* BallUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E4A925A78EAA009204CB /* BallUpUITests.swift */; };
+		1847E4C725AD79A5009204CB /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E4C625AD79A5009204CB /* LoginButtonStyle.swift */; };
+		1847E4CC25AD7D94009204CB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E4CB25AD7D94009204CB /* Color+Extension.swift */; };
+		1847E4D425AD9D7F009204CB /* CreateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E4D325AD9D7F009204CB /* CreateButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1847E4A525A78EAA009204CB /* BallUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847E4A925A78EAA009204CB /* BallUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallUpUITests.swift; sourceTree = "<group>"; };
 		1847E4AB25A78EAA009204CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847E4C625AD79A5009204CB /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
+		1847E4CB25AD7D94009204CB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		1847E4D325AD9D7F009204CB /* CreateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				1847E49225A78EA9009204CB /* LaunchScreen.storyboard */,
 				1847E49525A78EA9009204CB /* Info.plist */,
 				1847E48F25A78EA9009204CB /* Preview Content */,
+				1847E4C625AD79A5009204CB /* LoginButtonStyle.swift */,
+				1847E4D325AD9D7F009204CB /* CreateButtonStyle.swift */,
+				1847E4CB25AD7D94009204CB /* Color+Extension.swift */,
 			);
 			path = BallUp;
 			sourceTree = "<group>";
@@ -267,6 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1847E48825A78EA5009204CB /* AppDelegate.swift in Sources */,
+				1847E4D425AD9D7F009204CB /* CreateButtonStyle.swift in Sources */,
+				1847E4CC25AD7D94009204CB /* Color+Extension.swift in Sources */,
+				1847E4C725AD79A5009204CB /* LoginButtonStyle.swift in Sources */,
 				1847E48A25A78EA5009204CB /* SceneDelegate.swift in Sources */,
 				1847E48C25A78EA5009204CB /* ContentView.swift in Sources */,
 			);

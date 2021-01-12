@@ -16,6 +16,7 @@ struct ContentView: View {
         VStack(spacing: 15){
             Spacer()
             Text("Ball Up")
+                .font(.custom("DIN Condensed Bold", size: 80))
                 .font(.system(size: 64, weight: .semibold))
                 .foregroundColor(.white)
             HStack{
@@ -25,7 +26,7 @@ struct ContentView: View {
             }
             .padding(.all, 20)
             .background(Color.white)
-            .cornerRadius(8)
+            .cornerRadius(12)
             .padding(.horizontal, 20)
             
             HStack{
@@ -35,24 +36,32 @@ struct ContentView: View {
             }
             .padding(.all, 20)
             .background(Color.white)
-            .cornerRadius(8)
+            .cornerRadius(12)
             .padding(.horizontal, 20)
             
             Button(action: {} ) {
-                Text("Login")
-                    .foregroundColor(.white)
-                    .font(.system(size: 24, weight: .medium))
-            }.frame(maxWidth: .infinity)
-            .padding(.vertical, 20)
-            .background(Color.blue.opacity(0.8))
-            .cornerRadius(8)
-            .padding(.horizontal, 20)
+                HStack {
+                    Text("Create Account")
+                        .font(.system(size: 24))
+                        .foregroundColor(.white)
+                }
+            }.buttonStyle(CreateButtonStyle())
+            
+            Button(action: {} ) {
+                HStack {
+                    Text("Login")
+                        .font(.system(size: 24))
+                        .foregroundColor(.white)
+                }
+            }.buttonStyle(LoginButtonStyle())
+            
             Spacer()
             Spacer()
         }.background(
         Image("basketballcourt")
             .resizable()
             .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+            .overlay(Color.black.opacity(0.4))
         ).edgesIgnoringSafeArea(.all)
     }
 }
@@ -61,7 +70,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView().previewDevice("iPhone 11")
-//            ContentView().previewDevice("iPhone 8")
+            ContentView().previewDevice("iPhone 8")
         }
     }
 }
