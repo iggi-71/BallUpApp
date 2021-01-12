@@ -14,6 +14,7 @@
 		18472A3825AE0A9900F2FD3B /* DropdownGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18472A3725AE0A9900F2FD3B /* DropdownGender.swift */; };
 		18472A3D25AE0B6E00F2FD3B /* DropdownSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18472A3C25AE0B6E00F2FD3B /* DropdownSkill.swift */; };
 		18472A4525AE11D700F2FD3B /* LoginAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18472A4425AE11D700F2FD3B /* LoginAccount.swift */; };
+		18472A4A25AE4EBD00F2FD3B /* StatsShower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18472A4925AE4EBD00F2FD3B /* StatsShower.swift */; };
 		1847E48825A78EA5009204CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E48725A78EA5009204CB /* AppDelegate.swift */; };
 		1847E48A25A78EA5009204CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E48925A78EA5009204CB /* SceneDelegate.swift */; };
 		1847E48C25A78EA5009204CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E48B25A78EA5009204CB /* ContentView.swift */; };
@@ -53,6 +54,7 @@
 		18472A3725AE0A9900F2FD3B /* DropdownGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownGender.swift; sourceTree = "<group>"; };
 		18472A3C25AE0B6E00F2FD3B /* DropdownSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownSkill.swift; sourceTree = "<group>"; };
 		18472A4425AE11D700F2FD3B /* LoginAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAccount.swift; sourceTree = "<group>"; };
+		18472A4925AE4EBD00F2FD3B /* StatsShower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsShower.swift; sourceTree = "<group>"; };
 		1847E48425A78EA5009204CB /* BallUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847E48725A78EA5009204CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1847E48925A78EA5009204CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				18472A2325ADCFD000F2FD3B /* DropdownView.swift */,
 				18472A3225AE09EE00F2FD3B /* DropdownAge.swift */,
 				18472A2D25ADDBDC00F2FD3B /* RemindView.swift */,
+				18472A4925AE4EBD00F2FD3B /* StatsShower.swift */,
 				18472A3725AE0A9900F2FD3B /* DropdownGender.swift */,
 				18472A3C25AE0B6E00F2FD3B /* DropdownSkill.swift */,
 			);
@@ -308,6 +311,7 @@
 				1885A24A25ADBA0600476AB9 /* CreateAccount.swift in Sources */,
 				18472A3D25AE0B6E00F2FD3B /* DropdownSkill.swift in Sources */,
 				18472A2425ADCFD000F2FD3B /* DropdownView.swift in Sources */,
+				18472A4A25AE4EBD00F2FD3B /* StatsShower.swift in Sources */,
 				18472A4525AE11D700F2FD3B /* LoginAccount.swift in Sources */,
 				1847E48A25A78EA5009204CB /* SceneDelegate.swift in Sources */,
 				1847E48C25A78EA5009204CB /* ContentView.swift in Sources */,
