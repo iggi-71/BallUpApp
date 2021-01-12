@@ -13,6 +13,7 @@ struct StatsShower: View {
     @State var scored = ""
     @State var against = ""
     
+    
     var body: some View {
         VStack{
             VStack(spacing: 15){
@@ -59,6 +60,17 @@ struct StatsShower: View {
                 .cornerRadius(12)
                 .padding(.horizontal, 20)
             }
+            VStack{
+                Text("Your Grade is an:")
+                VStack{
+                Text("A")
+                }
+            }
+            .padding(.all, 20)
+            .background(Color.white)
+            .cornerRadius(12)
+            .padding(.horizontal, 20)
+            
             
             Spacer()
             Button(action:{}) {

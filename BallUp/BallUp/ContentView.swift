@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+        
+        
     @State var email = ""
     @State var password = ""
     @State private var isActive = false
@@ -83,4 +84,5 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+
 
