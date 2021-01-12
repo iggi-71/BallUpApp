@@ -12,6 +12,7 @@ struct ContentView: View {
     @State var email = ""
     @State var password = ""
     @State private var isActive = false
+    @State private var isActive2 = false
     
     var body: some View {
         NavigationView {
@@ -52,7 +53,7 @@ struct ContentView: View {
                         }
                     }.buttonStyle(CreateButtonStyle())
                 }
-                NavigationLink(destination: Text("Login"), isActive: $isActive) {
+                NavigationLink(destination: LoginAccount(), isActive: $isActive) {
                     Button(action: {
                         isActive = true
                     } ) {
