@@ -41,7 +41,7 @@ struct LoginAccount: View {
                     Spacer()
                 }
                 
-                NavigationLink(destination: RemindView(), isActive: $isActive) {
+                NavigationLink(destination: StatsShower(), isActive: $isActive) {
                     Button(action: {
                         isActive = true
                     }, label: {
