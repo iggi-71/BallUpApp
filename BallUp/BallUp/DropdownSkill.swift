@@ -1,5 +1,5 @@
 //
-//  DropdownView.swift
+//  DropdownSkill.swift
 //  BallUp
 //
 //  Created by apple on 1/12/21.
@@ -7,30 +7,29 @@
 
 import SwiftUI
 
-struct DropdownView: View {
-    
-    @State var name = ""
-    
+struct DropdownSkill: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Name")
+                Text("Skill Level")
                     .font(.system(size: 22, weight: .semibold))
                 Spacer()
             }.padding(.vertical, 10)
             Button(action: {}) {
                 HStack {
-                    TextField("name", text: $name)
+                    Text("Beginner")
                         .font(.system(size: 28, weight: .semibold))
                     Spacer()
+                    Image(systemName: "arrowtriangle.down.circle")
+                        .font(.system(size: 24, weight: .medium))
                 }
             }.buttonStyle(LoginButtonStyleLight())
         }.padding(15)
     }
 }
 
-struct DropdownView_Preview: PreviewProvider {
+struct DropdownSkill_Preview: PreviewProvider {
     static var previews: some View {
-        DropdownView().environment(\.colorScheme, .light)
+        DropdownSkill().environment(\.colorScheme, .light)
     }
 }
