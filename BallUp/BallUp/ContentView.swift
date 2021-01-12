@@ -41,7 +41,7 @@ struct ContentView: View {
                 .cornerRadius(12)
                 .padding(.horizontal, 20)
                 
-                NavigationLink(destination: Text("Create Account"), isActive: $isActive) {
+                NavigationLink(destination: CreateAccount(), isActive: $isActive) {
                     Button(action: {
                         isActive = true
                     } ) {
@@ -52,32 +52,34 @@ struct ContentView: View {
                         }
                     }.buttonStyle(CreateButtonStyle())
                 }
-                
-                    Button(action: {} ) {
+                NavigationLink(destination: Text("Login"), isActive: $isActive) {
+                    Button(action: {
+                        isActive = true
+                    } ) {
                         HStack {
                             Text("Login")
                                 .font(.system(size: 24))
                                 .foregroundColor(.white)
                         }
                     }.buttonStyle(LoginButtonStyle())
-                    
-                    Spacer()
-                    Spacer()
-                }.background(
-                    Image("basketballcourt")
-                        .resizable()
-                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-                        .overlay(Color.black.opacity(0.4))
-                ).edgesIgnoringSafeArea(.all)
-            }
+                }
+                Spacer()
+                Spacer()
+            }.background(
+                Image("basketballcourt")
+                    .resizable()
+                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                    .overlay(Color.black.opacity(0.4))
+            ).edgesIgnoringSafeArea(.all)
         }
     }
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            Group {
-                ContentView()
-            }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            ContentView()
         }
     }
+}
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18472A2425ADCFD000F2FD3B /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18472A2325ADCFD000F2FD3B /* DropdownView.swift */; };
+		18472A2925ADD4B400F2FD3B /* LoginButtonStyleLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18472A2825ADD4B400F2FD3B /* LoginButtonStyleLight.swift */; };
+		18472A2E25ADDBDC00F2FD3B /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18472A2D25ADDBDC00F2FD3B /* RemindView.swift */; };
 		1847E48825A78EA5009204CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E48725A78EA5009204CB /* AppDelegate.swift */; };
 		1847E48A25A78EA5009204CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E48925A78EA5009204CB /* SceneDelegate.swift */; };
 		1847E48C25A78EA5009204CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847E48B25A78EA5009204CB /* ContentView.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18472A2325ADCFD000F2FD3B /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		18472A2825ADD4B400F2FD3B /* LoginButtonStyleLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyleLight.swift; sourceTree = "<group>"; };
+		18472A2D25ADDBDC00F2FD3B /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 		1847E48425A78EA5009204CB /* BallUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847E48725A78EA5009204CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1847E48925A78EA5009204CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,11 +119,14 @@
 				1847E48D25A78EA9009204CB /* Assets.xcassets */,
 				1847E49225A78EA9009204CB /* LaunchScreen.storyboard */,
 				1847E49525A78EA9009204CB /* Info.plist */,
-				1885A24925ADBA0600476AB9 /* CreateAccount.swift */,
 				1847E48F25A78EA9009204CB /* Preview Content */,
 				1847E4C625AD79A5009204CB /* LoginButtonStyle.swift */,
+				18472A2825ADD4B400F2FD3B /* LoginButtonStyleLight.swift */,
 				1847E4D325AD9D7F009204CB /* CreateButtonStyle.swift */,
 				1847E4CB25AD7D94009204CB /* Color+Extension.swift */,
+				1885A24925ADBA0600476AB9 /* CreateAccount.swift */,
+				18472A2325ADCFD000F2FD3B /* DropdownView.swift */,
+				18472A2D25ADDBDC00F2FD3B /* RemindView.swift */,
 			);
 			path = BallUp;
 			sourceTree = "<group>";
@@ -283,8 +292,11 @@
 				1847E4CC25AD7D94009204CB /* Color+Extension.swift in Sources */,
 				1847E4C725AD79A5009204CB /* LoginButtonStyle.swift in Sources */,
 				1885A24A25ADBA0600476AB9 /* CreateAccount.swift in Sources */,
+				18472A2425ADCFD000F2FD3B /* DropdownView.swift in Sources */,
 				1847E48A25A78EA5009204CB /* SceneDelegate.swift in Sources */,
 				1847E48C25A78EA5009204CB /* ContentView.swift in Sources */,
+				18472A2925ADD4B400F2FD3B /* LoginButtonStyleLight.swift in Sources */,
+				18472A2E25ADDBDC00F2FD3B /* RemindView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
